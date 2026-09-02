@@ -12,7 +12,7 @@ import {
   validateEmail
 } from "@/lib/auth";
 import { getStore, uid, updateStore } from "@/lib/db";
-import { cookieValue, ensureCartId } from "@/lib/auth";
+import { cookieValue } from "@/lib/auth";
 
 export async function GET(req: Request) {
   const user = getUserFromRequest(req);
@@ -34,8 +34,10 @@ export async function POST(req: Request) {
   if (!validateEmail(email)) return error("Enter a valid email address");
   if (password.length < 6) return error("Password must be at least 6 characters");
 
-  const res = NextResponse.json({});
-  const cartId = cookieValue(req, CART_COOKIE) || ensureCartId(req, res);
+  // Determine cart id (do not set cookie yet)
+  const existingCart = cookieValue(req, CART_COOKIE);
+  let cartId = existingCart || uid("cart");
+  const needSetCartCookie = !existingCart;
 
   if (mode === "register") {
     const name = (body.name || "").trim();
@@ -51,25 +53,45 @@ export async function POST(req: Request) {
     };
     updateStore((s) => s.users.push(user));
     mergeGuestCart(user.id, cartId);
+
+    const res = NextResponse.json({ user: publicUser(user) });
+    if (needSetCartCookie) {
+      res.cookies.set(CART_COOKIE, cartId, {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        maxAge: 60 * 60 * 24 * 30
+      });
+    }
     res.cookies.set(SESSION_COOKIE, signSession(user.id), {
       httpOnly: true,
       sameSite: "lax",
       path: "/",
       maxAge: 60 * 60 * 24 * 14
     });
-    return NextResponse.json({ user: publicUser(user) }, { headers: res.headers });
+    return res;
   }
 
   const user = getStore().users.find((u) => u.email === email);
   if (!user || user.passwordHash !== hashPassword(password)) return error("Invalid email or password", 401);
   mergeGuestCart(user.id, cartId);
+
+  const res = NextResponse.json({ user: publicUser(user) });
+  if (needSetCartCookie) {
+    res.cookies.set(CART_COOKIE, cartId, {
+      httpOnly: true,
+      sameSite: "lax",
+      path: "/",
+      maxAge: 60 * 60 * 24 * 30
+    });
+  }
   res.cookies.set(SESSION_COOKIE, signSession(user.id), {
     httpOnly: true,
     sameSite: "lax",
     path: "/",
     maxAge: 60 * 60 * 24 * 14
   });
-  return NextResponse.json({ user: publicUser(user) }, { headers: res.headers });
+  return res;
 }
 
 export async function DELETE() {
