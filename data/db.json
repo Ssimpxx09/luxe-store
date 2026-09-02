@@ -1,0 +1,1022 @@
+{
+  "users": [],
+  "addresses": [],
+  "products": [
+    {
+      "id": "p1",
+      "slug": "casual-cotton-shirt",
+      "name": "Casual Cotton Shirt",
+      "price": 29.99,
+      "category": "Men",
+      "brand": "Luxe",
+      "colors": [
+        "#1e3a5f",
+        "#111111",
+        "#2f6b4f"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.6,
+      "reviewCount": 128,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Soft, breathable cotton shirt designed for all-day comfort. A clean everyday staple with a tailored fit.",
+      "features": [
+        "100% breathable cotton",
+        "Regular fit with button-down collar",
+        "Machine washable",
+        "Available in three seasonal colors"
+      ],
+      "specs": {
+        "Material": "100% Cotton",
+        "Fit": "Regular",
+        "Care": "Machine wash cold",
+        "Origin": "Portugal"
+      },
+      "shipping": "Ships in 2–4 business days. Free returns within 30 days.",
+      "bestseller": true
+    },
+    {
+      "id": "p2",
+      "slug": "linen-summer-blazer",
+      "name": "Linen Summer Blazer",
+      "price": 89,
+      "category": "Men",
+      "brand": "Maison",
+      "colors": [
+        "#c9b99a",
+        "#2b2b2b"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.8,
+      "reviewCount": 64,
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1594938291221-94d09e16343a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Lightweight linen blazer for warm-weather layering.",
+      "features": [
+        "Linen blend",
+        "Unstructured shoulder",
+        "Two-button closure"
+      ],
+      "specs": {
+        "Material": "Linen blend",
+        "Fit": "Slim",
+        "Care": "Dry clean"
+      },
+      "shipping": "Ships in 3–5 business days.",
+      "bestseller": true
+    },
+    {
+      "id": "p3",
+      "slug": "silk-wrap-dress",
+      "name": "Silk Wrap Dress",
+      "price": 74.5,
+      "category": "Women",
+      "brand": "Aether",
+      "colors": [
+        "#8b2942",
+        "#111111",
+        "#d4c4b0"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "rating": 4.7,
+      "reviewCount": 91,
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Fluid wrap dress with a flattering silhouette.",
+      "features": [
+        "Silk-touch fabric",
+        "Adjustable wrap",
+        "Midi length"
+      ],
+      "specs": {
+        "Material": "Viscose silk",
+        "Length": "Midi",
+        "Care": "Hand wash"
+      },
+      "shipping": "Free shipping over $50.",
+      "bestseller": true
+    },
+    {
+      "id": "p4",
+      "slug": "tailored-wool-coat",
+      "name": "Tailored Wool Coat",
+      "price": 159,
+      "category": "Women",
+      "brand": "Maison",
+      "colors": [
+        "#3d2f27",
+        "#6b6b6b"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.9,
+      "reviewCount": 42,
+      "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Structured wool coat with a timeless silhouette.",
+      "features": [
+        "Wool blend",
+        "Notch lapel",
+        "Interior pocket"
+      ],
+      "specs": {
+        "Material": "Wool blend",
+        "Fit": "Tailored",
+        "Care": "Dry clean"
+      },
+      "shipping": "Ships in 4–6 business days.",
+      "bestseller": true
+    },
+    {
+      "id": "p5",
+      "slug": "leather-crossbody",
+      "name": "Leather Crossbody",
+      "price": 49.99,
+      "category": "Bags",
+      "brand": "Northwind",
+      "colors": [
+        "#8b5a2b",
+        "#111111"
+      ],
+      "sizes": [
+        "OS"
+      ],
+      "rating": 4.5,
+      "reviewCount": 210,
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d12891?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d12891?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1590874103328-eac38a941956?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Compact leather crossbody with adjustable strap.",
+      "features": [
+        "Full-grain leather",
+        "Magnetic flap",
+        "Interior zip pocket"
+      ],
+      "specs": {
+        "Material": "Leather",
+        "Dimensions": "22 × 14 × 6 cm"
+      },
+      "shipping": "Free shipping.",
+      "bestseller": true
+    },
+    {
+      "id": "p6",
+      "slug": "canvas-tote",
+      "name": "Structured Canvas Tote",
+      "price": 34,
+      "category": "Bags",
+      "brand": "Luxe",
+      "colors": [
+        "#e8e4dc",
+        "#222222"
+      ],
+      "sizes": [
+        "OS"
+      ],
+      "rating": 4.3,
+      "reviewCount": 77,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a941956?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a941956?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Everyday tote with a structured base and inner pocket.",
+      "features": [
+        "Heavy canvas",
+        "Magnetic snap",
+        "Laptop sleeve"
+      ],
+      "specs": {
+        "Material": "Canvas",
+        "Dimensions": "40 × 32 × 12 cm"
+      },
+      "shipping": "Ships next day.",
+      "bestseller": false
+    },
+    {
+      "id": "p7",
+      "slug": "classic-leather-watch",
+      "name": "Classic Leather Watch",
+      "price": 129,
+      "category": "Watches",
+      "brand": "Volt",
+      "colors": [
+        "#111111",
+        "#8b5a2b"
+      ],
+      "sizes": [
+        "OS"
+      ],
+      "rating": 4.8,
+      "reviewCount": 156,
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1524592094714-0f2333151966?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Minimal analog watch with genuine leather strap.",
+      "features": [
+        "Japanese quartz",
+        "Sapphire crystal",
+        "5 ATM water resistance"
+      ],
+      "specs": {
+        "Case": "40mm steel",
+        "Movement": "Quartz"
+      },
+      "shipping": "Gift boxed. Ships in 2 days.",
+      "bestseller": true
+    },
+    {
+      "id": "p8",
+      "slug": "sport-chronograph",
+      "name": "Sport Chronograph",
+      "price": 199,
+      "category": "Watches",
+      "brand": "Volt",
+      "colors": [
+        "#2c3e50",
+        "#888888"
+      ],
+      "sizes": [
+        "OS"
+      ],
+      "rating": 4.4,
+      "reviewCount": 38,
+      "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Chronograph with a steel bracelet and luminous hands.",
+      "features": [
+        "Chronograph",
+        "Date window",
+        "Steel bracelet"
+      ],
+      "specs": {
+        "Case": "42mm",
+        "Water": "10 ATM"
+      },
+      "shipping": "Ships in 3–5 days.",
+      "bestseller": false
+    },
+    {
+      "id": "p9",
+      "slug": "city-runner-sneakers",
+      "name": "City Runner Sneakers",
+      "price": 79,
+      "category": "Footwear",
+      "brand": "Aether",
+      "colors": [
+        "#ffffff",
+        "#111111"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "rating": 4.6,
+      "reviewCount": 301,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Cushioned everyday sneakers built for city miles.",
+      "features": [
+        "Foam midsole",
+        "Breathable mesh",
+        "Rubber outsole"
+      ],
+      "specs": {
+        "Upper": "Mesh",
+        "Sole": "Rubber"
+      },
+      "shipping": "Free returns on footwear.",
+      "bestseller": true
+    },
+    {
+      "id": "p10",
+      "slug": "leather-oxfords",
+      "name": "Leather Oxfords",
+      "price": 110,
+      "category": "Footwear",
+      "brand": "Maison",
+      "colors": [
+        "#3d2f27",
+        "#111111"
+      ],
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "rating": 4.5,
+      "reviewCount": 54,
+      "image": "https://images.unsplash.com/photo-1449505278403-df55c0d4e1c2?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1449505278403-df55c0d4e1c2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Polished oxfords for work and evenings.",
+      "features": [
+        "Leather upper",
+        "Cushioned insole",
+        "Goodyear welt look"
+      ],
+      "specs": {
+        "Material": "Leather",
+        "Closure": "Lace-up"
+      },
+      "shipping": "Ships in 3 days.",
+      "bestseller": false
+    },
+    {
+      "id": "p11",
+      "slug": "wireless-earbuds",
+      "name": "Wireless Earbuds",
+      "price": 59.99,
+      "category": "Electronics",
+      "brand": "Volt",
+      "colors": [
+        "#111111",
+        "#ffffff"
+      ],
+      "sizes": [
+        "OS"
+      ],
+      "rating": 4.2,
+      "reviewCount": 412,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Compact earbuds with a charging case and clear calls.",
+      "features": [
+        "24h battery with case",
+        "Touch controls",
+        "IPX4"
+      ],
+      "specs": {
+        "Battery": "6h + case",
+        "Connectivity": "Bluetooth 5.3"
+      },
+      "shipping": "Ships next day.",
+      "bestseller": true
+    },
+    {
+      "id": "p12",
+      "slug": "minimal-backpack",
+      "name": "Minimal Backpack",
+      "price": 64,
+      "category": "Bags",
+      "brand": "Northwind",
+      "colors": [
+        "#222222",
+        "#5a6b4f"
+      ],
+      "sizes": [
+        "OS"
+      ],
+      "rating": 4.7,
+      "reviewCount": 88,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Slim backpack with a padded 15\" laptop sleeve.",
+      "features": [
+        "Water-resistant",
+        "Laptop sleeve",
+        "Hidden pocket"
+      ],
+      "specs": {
+        "Capacity": "18L",
+        "Laptop": "15 inch"
+      },
+      "shipping": "Free shipping.",
+      "bestseller": false
+    },
+    {
+      "id": "p13",
+      "slug": "high-waist-trousers",
+      "name": "High-Waist Trousers",
+      "price": 48,
+      "category": "Women",
+      "brand": "Luxe",
+      "colors": [
+        "#1a1a1a",
+        "#c9b99a"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.4,
+      "reviewCount": 73,
+      "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Tailored trousers with a high rise and clean drape.",
+      "features": [
+        "Stretch weave",
+        "Side pockets",
+        "Belt loops"
+      ],
+      "specs": {
+        "Rise": "High",
+        "Care": "Machine wash"
+      },
+      "shipping": "Ships in 2–4 days.",
+      "bestseller": false
+    },
+    {
+      "id": "p14",
+      "slug": "denim-jacket",
+      "name": "Classic Denim Jacket",
+      "price": 69,
+      "category": "Men",
+      "brand": "Northwind",
+      "colors": [
+        "#3b5998",
+        "#1c2a4a"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.5,
+      "reviewCount": 190,
+      "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Year-round denim jacket with a vintage wash.",
+      "features": [
+        "Cotton denim",
+        "Chest pockets",
+        "Button front"
+      ],
+      "specs": {
+        "Material": "Cotton denim",
+        "Wash": "Medium"
+      },
+      "shipping": "Free returns.",
+      "bestseller": true
+    },
+    {
+      "id": "p15",
+      "slug": "ankle-boots",
+      "name": "Suede Ankle Boots",
+      "price": 95,
+      "category": "Footwear",
+      "brand": "Aether",
+      "colors": [
+        "#6b4f3a",
+        "#111111"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rating": 4.6,
+      "reviewCount": 61,
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Suede ankle boots with a low stacked heel.",
+      "features": [
+        "Suede upper",
+        "Side zip",
+        "Cushioned footbed"
+      ],
+      "specs": {
+        "Heel": "4 cm",
+        "Material": "Suede"
+      },
+      "shipping": "Ships in 3 days.",
+      "bestseller": false
+    },
+    {
+      "id": "p16",
+      "slug": "over-ear-headphones",
+      "name": "Studio Headphones",
+      "price": 149,
+      "category": "Electronics",
+      "brand": "Volt",
+      "colors": [
+        "#111111"
+      ],
+      "sizes": [
+        "OS"
+      ],
+      "rating": 4.7,
+      "reviewCount": 203,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Over-ear headphones with deep bass and a folding design.",
+      "features": [
+        "40mm drivers",
+        "Folding hinge",
+        "Detachable cable"
+      ],
+      "specs": {
+        "Driver": "40mm",
+        "Weight": "240g"
+      },
+      "shipping": "Ships next day.",
+      "bestseller": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": "p1-r1",
+      "productId": "p1",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p1-r2",
+      "productId": "p1",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p2-r1",
+      "productId": "p2",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p2-r2",
+      "productId": "p2",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p3-r1",
+      "productId": "p3",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p3-r2",
+      "productId": "p3",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p4-r1",
+      "productId": "p4",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p4-r2",
+      "productId": "p4",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p5-r1",
+      "productId": "p5",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p5-r2",
+      "productId": "p5",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p6-r1",
+      "productId": "p6",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p6-r2",
+      "productId": "p6",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p7-r1",
+      "productId": "p7",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p7-r2",
+      "productId": "p7",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p8-r1",
+      "productId": "p8",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p8-r2",
+      "productId": "p8",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p9-r1",
+      "productId": "p9",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p9-r2",
+      "productId": "p9",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p10-r1",
+      "productId": "p10",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p10-r2",
+      "productId": "p10",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p11-r1",
+      "productId": "p11",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p11-r2",
+      "productId": "p11",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p12-r1",
+      "productId": "p12",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p12-r2",
+      "productId": "p12",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p13-r1",
+      "productId": "p13",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p13-r2",
+      "productId": "p13",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p14-r1",
+      "productId": "p14",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p14-r2",
+      "productId": "p14",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p15-r1",
+      "productId": "p15",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p15-r2",
+      "productId": "p15",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "p16-r1",
+      "productId": "p16",
+      "author": "Alex M.",
+      "rating": 5,
+      "text": "Excellent quality and true to size. Would buy again.",
+      "createdAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "p16-r2",
+      "productId": "p16",
+      "author": "Priya S.",
+      "rating": 4,
+      "text": "Looks exactly like the photos. Shipping was quick.",
+      "createdAt": "2026-05-02T10:00:00.000Z"
+    }
+  ],
+  "cartItems": [
+    {
+      "id": "ci_i7pepo61mtjuy1ay",
+      "cartId": "cart_ab963p57mtjuxenb",
+      "productId": "p9",
+      "color": "#ffffff",
+      "size": "6",
+      "qty": 5
+    },
+    {
+      "id": "ci_4z54j6ktmtjvcs10",
+      "cartId": "cart_dclyh15vmtjuy2uj",
+      "productId": "p11",
+      "color": "#111111",
+      "size": "OS",
+      "qty": 1
+    },
+    {
+      "id": "ci_n5bjab7jmtjvctbp",
+      "cartId": "cart_dclyh15vmtjuy2uj",
+      "productId": "p9",
+      "color": "#ffffff",
+      "size": "6",
+      "qty": 1
+    },
+    {
+      "id": "ci_c0t8m9ejmtjvcwx8",
+      "cartId": "cart_dclyh15vmtjuy2uj",
+      "productId": "p7",
+      "color": "#111111",
+      "size": "OS",
+      "qty": 1
+    }
+  ],
+  "wishlist": [],
+  "orders": [
+    {
+      "id": "ord_bducn3ygmtjv2b58",
+      "number": "LX39331052",
+      "userId": null,
+      "items": [
+        {
+          "productId": "p11",
+          "name": "Wireless Earbuds",
+          "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+          "color": "#111111",
+          "size": "OS",
+          "qty": 1,
+          "price": 59.99
+        },
+        {
+          "productId": "p9",
+          "name": "City Runner Sneakers",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+          "color": "#ffffff",
+          "size": "6",
+          "qty": 1,
+          "price": 79
+        }
+      ],
+      "shipping": {
+        "fullName": "erdthfjgkh",
+        "phone": "6853165431",
+        "email": "asefrtyjgukhi@gmail.com",
+        "line1": "dfgthg",
+        "line2": "sdergdthfyjg",
+        "city": "dfrghj",
+        "state": "drgthfjgj",
+        "zip": "5210536",
+        "country": "United States"
+      },
+      "subtotal": 138.99,
+      "shippingFee": 0,
+      "tax": 20.85,
+      "total": 159.84,
+      "status": "placed",
+      "createdAt": "2026-09-02T08:55:31.052Z"
+    },
+    {
+      "id": "ord_z3fbwshemtjv0cbs",
+      "number": "LX39239272",
+      "userId": null,
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Casual Cotton Shirt",
+          "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+          "color": "#1e3a5f",
+          "size": "S",
+          "qty": 2,
+          "price": 29.99
+        },
+        {
+          "productId": "p9",
+          "name": "City Runner Sneakers",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+          "color": "#ffffff",
+          "size": "6",
+          "qty": 1,
+          "price": 79
+        },
+        {
+          "productId": "p5",
+          "name": "Leather Crossbody",
+          "image": "https://images.unsplash.com/photo-1548036328-c9fa89d12891?auto=format&fit=crop&w=800&q=80",
+          "color": "#8b5a2b",
+          "size": "OS",
+          "qty": 1,
+          "price": 49.99
+        },
+        {
+          "productId": "p14",
+          "name": "Classic Denim Jacket",
+          "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80",
+          "color": "#3b5998",
+          "size": "S",
+          "qty": 2,
+          "price": 69
+        }
+      ],
+      "shipping": {
+        "fullName": "sfergdthfyjgu",
+        "phone": "78963521",
+        "email": "ssimpx@gmail.com",
+        "line1": "sefrgdtfhyjk",
+        "line2": "sfgrdthfyjgkh",
+        "city": "sferdgthfyjg",
+        "state": "fdghfjgkh",
+        "zip": "86532",
+        "country": "United States"
+      },
+      "subtotal": 326.97,
+      "shippingFee": 0,
+      "tax": 49.05,
+      "total": 376.02,
+      "status": "placed",
+      "createdAt": "2026-09-02T08:53:59.272Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Jordan Blake",
+      "rating": 5,
+      "text": "The checkout was simple and my order arrived packed with care. The cotton shirt is now my weekly staple.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-11eb580019c4?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "t2",
+      "name": "Maya Chen",
+      "rating": 5,
+      "text": "Love the curation. Filters made it easy to find a dress for an event, and returns were painless.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "t3",
+      "name": "Sam Rivera",
+      "rating": 4,
+      "text": "Support replied in live chat within minutes. The watch looks even better in person.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_jfplpnpgmtjvfoad",
+      "userId": null,
+      "name": "Assy",
+      "email": "ssimpx09@gmail.com",
+      "date": "2026-9-9",
+      "time": "09:00 AM",
+      "notes": "heyyy this appointments r mandatory for me!",
+      "createdAt": "2026-09-02T09:05:54.613Z"
+    }
+  ],
+  "chat": [],
+  "contacts": [
+    {
+      "id": "ct_1qughesymtjve8o0",
+      "name": "Assy",
+      "email": "ssimpx09@gmail.com",
+      "message": "heyy!!! i m Assy i liked ur store",
+      "createdAt": "2026-09-02T09:04:47.712Z"
+    }
+  ]
+}
